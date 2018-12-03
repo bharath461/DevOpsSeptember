@@ -19,7 +19,7 @@ Y="\e[33m"
 N="\e[0m"
 
 if [ $ID -ne 0 ]; then
-	echo "You are not the root user, you dont have permissions to run this"
+	echo "You are not the root, you dont have permissions to run this"
 	exit 1
 else
 	echo "you are the root user"
